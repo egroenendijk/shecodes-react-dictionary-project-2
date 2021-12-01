@@ -8,9 +8,8 @@ function App() {
         <header className="App-header">
           <h1>Dictionary</h1>
         </header>
-        <br />
         <div>
-          <Dictionary />
+          <Dictionary defaultKeyword="skincare" />
         </div>
         <br />
         <footer className="Footer">Coded by Eva Groenendijk</footer>

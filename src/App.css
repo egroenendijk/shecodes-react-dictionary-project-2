@@ -1,9 +1,20 @@
-.App {
+.App section {
   background-color: #f7edeb;
-  display: block;
-  margin: 100px 400px;
-  padding: 50px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 400px;
+  padding: 30px;
+}
+
+h1 {
   text-align: center;
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 6px 4px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
 }
 
 footer {
