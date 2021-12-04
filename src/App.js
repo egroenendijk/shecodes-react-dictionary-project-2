@@ -11,8 +11,20 @@ function App() {
         <div>
           <Dictionary defaultKeyword="skincare" />
         </div>
-        <br />
-        <footer className="Footer">Coded by Eva Groenendijk</footer>
+        <footer className="Footer">
+          This project is coded by{" "}
+          <a href="https://www.linkedin.com/in/eva-groenendijk-22144180/">
+            Eva Groenendijk
+          </a>{" "}
+          and is{" "}
+          <a href="https://github.com/egroenendijk/shecodes-react-dictionary-project-2">
+            open-sourced on GitGub{" "}
+          </a>
+          and{" "}
+          <a href="https://elegant-franklin-f0ae62.netlify.app/">
+            hosted on Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );
